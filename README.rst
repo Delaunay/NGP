@@ -1,5 +1,5 @@
-ngp
-=============================
+Neural Geometry Processing
+==========================
 
 |pypi| |py_versions| |codecov| |docs| |tests| |style|
 
@@ -34,3 +34,10 @@ Features
 
 * Feature 1
 * Feature 2
+
+
+
+Resources
+---------
+
+* https://github.com/timzhang642/3D-Machine-Learning/tree/master
