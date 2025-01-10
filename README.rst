@@ -41,3 +41,4 @@ Resources
 ---------
 
 * https://github.com/timzhang642/3D-Machine-Learning/tree/master
+* https://github.com/NVIDIAGameWorks/kaolin

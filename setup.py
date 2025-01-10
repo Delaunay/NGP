@@ -32,10 +32,18 @@ if __name__ == "__main__":
         ],
         packages=[
             "ngp.core",
+            "ngp.dataset",
+            "ngp.model",
+            "ngp.task",
             "ngp.plugins.example",
         ],
         setup_requires=["setuptools"],
-        install_requires=["importlib_resources"],
+        install_requires=[
+            "importlib_resources",
+            "assimp-py",
+            "requests",
+            "vtk"
+        ],
         package_data={
             "ngp.data": [
                 "ngp/data",
