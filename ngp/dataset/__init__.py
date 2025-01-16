@@ -92,6 +92,7 @@ class ModelNet10:
 
 
 class ModelNet40:
+    # FIXME: keep the zipfile and just load files directly from there
     """Collected 3D CAD models belonging to each object category using online search engines
     by querying for each object category term. Then, we hired human workers on 
     Amazon Mechanical Turk to manually decide whether each CAD model belongs to the specified cateogries, 
@@ -176,6 +177,12 @@ class ModelNet40:
         return scene, cls
 
 
+# https://ranahanocka.github.io/MeshCNN/
+# COSEG segmentation dataset
+# Human Segmentation dataset
+# Cubes classification dataset
+# Shrec classification dataset
+
 
 class ShapeNet:
     # https://shapenet.org/
@@ -210,8 +217,13 @@ def visualize_scene_vtk(scene):
     faces = []
 
     for mesh in scene.meshes:
-        vertices.extend(mesh.vertices)
-        faces.extend(mesh.indices)
+        vertices.extend(mesh.vertices) # Points / Dots of the mesh
+        faces.extend(mesh.indices)     # How points are connected to form faces
+                                       # This allows indices to be reused 
+                                       # i.e more memory efficient
+
+        print(mesh.vertices)
+        print(mesh.indices)
 
     # Create VTK Points
     points = vtk.vtkPoints()
@@ -254,7 +266,6 @@ def visualize_scene_vtk(scene):
 
 
 if __name__ == "__main__":
-    import trimesh
     import numpy as np
 
     dataset = ModelNet40("G:/ngp/data/ModelNet40")

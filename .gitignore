@@ -77,3 +77,4 @@ _build/
 .ruff_cache
 
 data/
+notes/

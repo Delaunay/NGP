@@ -37,8 +37,15 @@ Features
 
 
 
+Paper
+-----
+
+* MeshCNN: A Network with an Edge: https://github.com/ranahanocka/MeshCNN/
+
 Resources
 ---------
 
 * https://github.com/timzhang642/3D-Machine-Learning/tree/master
 * https://github.com/NVIDIAGameWorks/kaolin
+* https://github.com/NVIDIAGameWorks/kaolin-wisp
+* https://zheng95z.github.io/publications/rgbx24?lid=7ibrcrhosh7a
