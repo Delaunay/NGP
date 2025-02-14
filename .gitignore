@@ -78,3 +78,19 @@ _build/
 
 data/
 notes/
+
+questions.txt
+
+papers/p1/MeshCNN/
+papers/p2/AtlasNet/
+papers/p3/neuralSubdiv/
+
+papers/p5/NeuralJacobianFields
+papers/p6/NMC
+papers/p7/NDC
+
+*.blend
+*.blend1
+*.fbx
+
+bin/
