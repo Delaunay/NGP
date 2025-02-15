@@ -3,10 +3,10 @@
 [node name="Camera" type="Node3D"]
 
 [node name="LeftEye" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.378015, 2.00206, 5.99811)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.378, 1, 2)
 
 [node name="MiddleEye" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, 6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 2)
 
 [node name="RightEye" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.332873, 2, 6)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.29147, 0.999999, 2.01281)

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://jnt4yi3rsu4j"]
+
+[ext_resource type="Script" path="res://phone_scene.gd" id="1_knrq2"]
+
+[node name="PhoneScene" type="Node3D"]
+script = ExtResource("1_knrq2")

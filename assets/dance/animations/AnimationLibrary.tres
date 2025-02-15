@@ -1,0 +1,86 @@
+[gd_resource type="AnimationLibrary" load_steps=41 format=3 uid="uid://c1dulu83yfnvl"]
+
+[ext_resource type="Animation" uid="uid://i7tmyqw4yw15" path="res://animations/Z1.res" id="1_ni7e3"]
+[ext_resource type="Animation" uid="uid://bkc150lidh12q" path="res://animations/Z10.res" id="2_q20o4"]
+[ext_resource type="Animation" uid="uid://h065wjfi23yo" path="res://animations/Z11.res" id="3_5srmn"]
+[ext_resource type="Animation" uid="uid://dyi6rqmww2mml" path="res://animations/Z12.res" id="4_83ono"]
+[ext_resource type="Animation" uid="uid://cka4061l2ojbc" path="res://animations/Z13.res" id="5_y17sv"]
+[ext_resource type="Animation" uid="uid://bdy8po5hynfyd" path="res://animations/Z14.res" id="6_nur0f"]
+[ext_resource type="Animation" uid="uid://ctjorsh50d7" path="res://animations/Z15.res" id="7_cg3cy"]
+[ext_resource type="Animation" uid="uid://k62h18rox2ay" path="res://animations/Z16.res" id="8_4nhbe"]
+[ext_resource type="Animation" uid="uid://dn7rr4qopibcm" path="res://animations/Z17.res" id="9_cbewx"]
+[ext_resource type="Animation" uid="uid://e4fj7uu2jejc" path="res://animations/Z18.res" id="10_oyucj"]
+[ext_resource type="Animation" uid="uid://cds6e4m5vsh30" path="res://animations/Z19.res" id="11_fggpp"]
+[ext_resource type="Animation" uid="uid://cbf1bp478v0us" path="res://animations/Z1_001.res" id="12_tseya"]
+[ext_resource type="Animation" uid="uid://b02i3xlhyf1kp" path="res://animations/Z2.res" id="13_am4oe"]
+[ext_resource type="Animation" uid="uid://ckqfpdn018qyy" path="res://animations/Z20.res" id="14_wbgly"]
+[ext_resource type="Animation" uid="uid://bnkx1n63i5sqf" path="res://animations/Z21.res" id="15_clc7t"]
+[ext_resource type="Animation" uid="uid://jam3vfq52eol" path="res://animations/Z22.res" id="16_mi5bx"]
+[ext_resource type="Animation" uid="uid://brv8k0begjyfx" path="res://animations/Z23.res" id="17_jbbqt"]
+[ext_resource type="Animation" uid="uid://bmi6uj8rawbnb" path="res://animations/Z24.res" id="18_wbsl3"]
+[ext_resource type="Animation" uid="uid://0kajn8wrag46" path="res://animations/Z25.res" id="19_gglod"]
+[ext_resource type="Animation" uid="uid://baa3v3dkquix3" path="res://animations/Z26.res" id="20_j7i1v"]
+[ext_resource type="Animation" uid="uid://3dhxprgc2v3e" path="res://animations/Z27.res" id="21_3ulp7"]
+[ext_resource type="Animation" uid="uid://0evtek4hw0jn" path="res://animations/Z28.res" id="22_ellaj"]
+[ext_resource type="Animation" uid="uid://d3covgpjn7p54" path="res://animations/Z29.res" id="23_6q4i8"]
+[ext_resource type="Animation" uid="uid://due7lo6m38r2s" path="res://animations/Z3.res" id="24_utkgs"]
+[ext_resource type="Animation" uid="uid://bfrrkt676girm" path="res://animations/Z30.res" id="25_l6f1x"]
+[ext_resource type="Animation" uid="uid://bhvsdm4ar0qtr" path="res://animations/Z31.res" id="26_g4iau"]
+[ext_resource type="Animation" uid="uid://cu1yqk7yr0hqe" path="res://animations/Z32.res" id="27_531ft"]
+[ext_resource type="Animation" uid="uid://b1bma5m5vhupq" path="res://animations/Z33.res" id="28_5bnif"]
+[ext_resource type="Animation" uid="uid://cplponcpo1i43" path="res://animations/Z34.res" id="29_e1x4t"]
+[ext_resource type="Animation" uid="uid://ujk3vpmi5ykb" path="res://animations/Z35.res" id="30_oscoo"]
+[ext_resource type="Animation" uid="uid://bu4klalvmhvq8" path="res://animations/Z36.res" id="31_7pc6j"]
+[ext_resource type="Animation" uid="uid://dir7p5fqquwvs" path="res://animations/Z37.res" id="32_5k530"]
+[ext_resource type="Animation" uid="uid://psejuk4tjtng" path="res://animations/Z38.res" id="33_3x4sk"]
+[ext_resource type="Animation" uid="uid://drsl5h6n30tbm" path="res://animations/Z39.res" id="34_dbthw"]
+[ext_resource type="Animation" uid="uid://dobxqncdkcmu0" path="res://animations/Z4.res" id="35_q32ok"]
+[ext_resource type="Animation" uid="uid://dq8ta3yu2chdu" path="res://animations/Z5.res" id="36_0op4c"]
+[ext_resource type="Animation" uid="uid://bx4cnt78gb7j4" path="res://animations/Z6.res" id="37_8fua8"]
+[ext_resource type="Animation" uid="uid://bsg772f5arjju" path="res://animations/Z7.res" id="38_ppyv8"]
+[ext_resource type="Animation" uid="uid://y48vuja7dby8" path="res://animations/Z8.res" id="39_ok5yo"]
+[ext_resource type="Animation" uid="uid://d2npbg3amify8" path="res://animations/Z9.res" id="40_kma37"]
+
+[resource]
+_data = {
+"Z1": ExtResource("1_ni7e3"),
+"Z10": ExtResource("2_q20o4"),
+"Z11": ExtResource("3_5srmn"),
+"Z12": ExtResource("4_83ono"),
+"Z13": ExtResource("5_y17sv"),
+"Z14": ExtResource("6_nur0f"),
+"Z15": ExtResource("7_cg3cy"),
+"Z16": ExtResource("8_4nhbe"),
+"Z17": ExtResource("9_cbewx"),
+"Z18": ExtResource("10_oyucj"),
+"Z19": ExtResource("11_fggpp"),
+"Z1_001": ExtResource("12_tseya"),
+"Z2": ExtResource("13_am4oe"),
+"Z20": ExtResource("14_wbgly"),
+"Z21": ExtResource("15_clc7t"),
+"Z22": ExtResource("16_mi5bx"),
+"Z23": ExtResource("17_jbbqt"),
+"Z24": ExtResource("18_wbsl3"),
+"Z25": ExtResource("19_gglod"),
+"Z26": ExtResource("20_j7i1v"),
+"Z27": ExtResource("21_3ulp7"),
+"Z28": ExtResource("22_ellaj"),
+"Z29": ExtResource("23_6q4i8"),
+"Z3": ExtResource("24_utkgs"),
+"Z30": ExtResource("25_l6f1x"),
+"Z31": ExtResource("26_g4iau"),
+"Z32": ExtResource("27_531ft"),
+"Z33": ExtResource("28_5bnif"),
+"Z34": ExtResource("29_e1x4t"),
+"Z35": ExtResource("30_oscoo"),
+"Z36": ExtResource("31_7pc6j"),
+"Z37": ExtResource("32_5k530"),
+"Z38": ExtResource("33_3x4sk"),
+"Z39": ExtResource("34_dbthw"),
+"Z4": ExtResource("35_q32ok"),
+"Z5": ExtResource("36_0op4c"),
+"Z6": ExtResource("37_8fua8"),
+"Z7": ExtResource("38_ppyv8"),
+"Z8": ExtResource("39_ok5yo"),
+"Z9": ExtResource("40_kma37")
+}
