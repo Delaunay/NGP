@@ -37,7 +37,6 @@ var port = 12345
 var host = "127.0.0.1"
 
 var server := TCPServer.new()
-var client := StreamPeerTCP.new()
 var next_action = null
 var mesh = null
 var current_mesh_id = null
@@ -95,8 +94,13 @@ func get_skeleton_transforms(skeleton: Skeleton3D) -> Dictionary:
 
 	for i in range(skeleton.get_bone_count()):
 		var bone_name = skeleton.get_bone_name(i)
-		var bone_transform = skeleton.get_bone_global_pose(i)  # Get global transformation
-		bone_transforms[bone_name] = bone_transform
+		var bone_transform: Transform3D = skeleton.get_bone_global_pose(i)  # Get global transformation
+		bone_transforms[bone_name] = {
+			"X": [bone_transform.basis.x[0],bone_transform.basis.x[1],bone_transform.basis.x[2],],
+			"Y": [bone_transform.basis.y[0],bone_transform.basis.y[1],bone_transform.basis.y[2],],
+			"Z": [bone_transform.basis.z[0],bone_transform.basis.z[1],bone_transform.basis.z[2],],
+			"O": [bone_transform.origin[0] ,bone_transform.origin[1] ,bone_transform.origin[2] ,],
+		}
 
 	return bone_transforms
 
@@ -213,10 +217,13 @@ func set_env(msg):
 	#camera.basis = Basis(quat)
 
 
+var clients = []
+
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	if server.is_connection_available():
-		client = server.take_connection()
-	
-	if client.get_status() == client.Status.STATUS_CONNECTED and client.get_available_bytes() > 0:
-		handle_message(client, receive_json(client))
+		clients.append(server.take_connection())
+		
+	for client in clients:
+		if client.get_status() == StreamPeerTCP.Status.STATUS_CONNECTED and client.get_available_bytes() > 0:
+			handle_message(client, receive_json(client))
